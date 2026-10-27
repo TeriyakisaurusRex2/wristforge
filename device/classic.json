@@ -1,0 +1,22 @@
+{
+  "name": "Classic",
+  "bg": { "type": "radial", "c1": "#1b1e26", "c2": "#07080c", "angle": 90 },
+  "ring": { "show": true, "color": "#3a4150", "r": 117, "w": 2 },
+  "ticks": {
+    "show": true, "inset": 8,
+    "majorCount": 12, "majorLen": 14, "majorW": 3, "majorColor": "#e8eaf0", "majorShape": "line",
+    "minorCount": 60, "minorLen": 6, "minorW": 1, "minorColor": "#596070"
+  },
+  "numerals": { "mode": "quarter", "r": 84, "size": 24, "color": "#e8eaf0", "font": "sans" },
+  "hands": {
+    "show": true, "smooth": false,
+    "hour":   { "style": "taper", "len": 52, "w": 8, "color": "#e8eaf0", "tail": 12 },
+    "minute": { "style": "taper", "len": 82, "w": 6, "color": "#e8eaf0", "tail": 14 },
+    "second": { "show": true, "style": "baton", "len": 96, "w": 2, "color": "#e34f4f", "tail": 22 },
+    "hub": { "r": 5, "color": "#e8eaf0", "ring": "#e34f4f" }
+  },
+  "digital": { "show": false, "style": "seven", "fmt24": true, "showSeconds": false, "ghost": true,
+    "size": 44, "x": 0, "y": 0, "color": "#7df59a", "font": "mono" },
+  "slots": { "top": "none", "right": "date", "bottom": "battery", "left": "none" },
+  "comp": { "color": "#9aa3b2", "accent": "#e34f4f", "size": 12, "dist": 58 }
+}

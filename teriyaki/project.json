@@ -1,0 +1,11 @@
+{
+  "name": "WristForge",
+  "description": "DIY smartwatch firmware and a browser watch-face designer.",
+  "about": "A smartwatch built on a Waveshare RP2040 board with a round 1.28\" screen. Watch faces are designed in a browser simulator and flashed to the device as MicroPython, both sharing one JSON face format.",
+  "type": "watch",
+  "category": "hardware",
+  "status": "In development",
+  "created": "2026-06-13",
+  "tags": ["hardware", "MicroPython", "RP2040"],
+  "media": []
+}
