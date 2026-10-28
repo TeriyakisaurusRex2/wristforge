@@ -6,6 +6,5 @@
   "category": "hardware",
   "status": "In development",
   "created": "2026-06-13",
-  "tags": ["hardware", "MicroPython", "RP2040"],
-  "media": []
+  "tags": ["hardware", "MicroPython", "RP2040"]
 }
